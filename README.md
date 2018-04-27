@@ -1,7 +1,8 @@
 # Header
-在Unity编辑器中增加脚本的中文说明
-http://www.mamicode.com/info-detail-1744538.html
-在游戏中，程序，美术，策划甚至音效都是分工合作的。很多时候，对于unity3d中一堆英文，大家都会看得很郁闷。尤其是不同的程序员，命名方式也不尽相同，甚至还是用拼音。因此，在脚本中增加一些中文显示，就能够很好地解决这个问题。
+        在Unity编辑器中增加脚本的中文说明
+        http://www.mamicode.com/info-detail-1744538.html
+
+        在游戏中，程序，美术，策划甚至音效都是分工合作的。很多时候，对于unity3d中一堆英文，大家都会看得很郁闷。尤其是不同的程序员，命名方式也不尽相同，甚至还是用拼音。因此，在脚本中增加一些中文显示，就能够很好地解决这个问题。
 
         首先，unity中对于字段(Field)已经有了很好的中文显示方法[Header]标签
 
@@ -105,7 +106,7 @@ public class TestScript : MonoBehaviour
     public float A;
 }
     
-    最终结果显示如下
+
 技术分享
          （PS：试过用MonoHeader替代Header来保证统一性，但是Unity对于字段只认Header，最终没有效果，故MonoHeader用于类和方法的说明，字段的说明用Header）
 
